@@ -1,5 +1,7 @@
 # Mixcircle
 
+[Open Mixcircle](https://mixcircle.vercel.app)
+
 **Mix the room. See the repeats.** Plan balanced breakout groups across several rounds, then inspect who meets whom and where pairings repeat.
 
 ## Features
