@@ -1,3 +1,4 @@
+import {installHandoff} from './handoff.mjs';
 import {parseRoster,validateConfig} from './input.mjs';import {makeMix} from './mixer.mjs';import {makeReport} from './audit.mjs';import {EXAMPLE} from './example.mjs';
 const $=id=>document.getElementById(id),node=(tag,text)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;return e;};let current=null,page=0;
 export const getCurrent=()=>current;
@@ -36,4 +37,5 @@ $('search').addEventListener('input',()=>{page=0;renderPairs();});$('pair-filter
 $('previous').addEventListener('click',()=>{page--;renderPairs();});$('next').addEventListener('click',()=>{page++;renderPairs();});
 $('example').addEventListener('click',()=>start());
 export function start(){for(const id of ['title','groups','rounds','seed'])$(id).value=EXAMPLE[id];$('roster').value=EXAMPLE.participants.join('\n');$('search').value='';$('pair-filter').value='repeated';generate();}
+installHandoff({getCurrent,generate,selectedRound});
 start();
