@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="609" viewBox="0 0 1000 609" role="img" aria-labelledby="title description">
+<title id="title">Studio conversations — round 1</title>
+<desc id="description">Balanced breakout group cards. Labels may be shortened; full labels are in tooltips and the JSON report. Group labels are not room-capacity or platform assignments.</desc>
+<rect width="1000" height="609" fill="#fffaf2"/>
+<text x="30" y="43" font-family="monospace" font-size="24" fill="#193d43">Studio conversations</text>
+<text x="30" y="74" font-family="monospace" font-size="15" fill="#526970">Round 1 / 3 · mix key studio-1</text>
+<text x="30" y="104" font-family="monospace" font-size="12" fill="#526970">Heuristic grouping. Review repeats and individual needs before using.</text>
+<g><rect x="30" y="130" width="460" height="182" rx="12" fill="#fff" stroke="#cddad9"/>
+<text x="52" y="164" font-family="monospace" font-size="18" fill="#126d70">G1 · 4 people</text>
+<g><title>P03 · Casey</title><text x="52" y="197" font-family="monospace" font-size="14" fill="#193d43">P03 · Casey</text></g>
+<g><title>P12 · Logan</title><text x="52" y="224" font-family="monospace" font-size="14" fill="#193d43">P12 · Logan</text></g>
+<g><title>P06 · Frankie</title><text x="52" y="251" font-family="monospace" font-size="14" fill="#193d43">P06 · Frankie</text></g>
+<g><title>P09 · Indigo</title><text x="52" y="278" font-family="monospace" font-size="14" fill="#193d43">P09 · Indigo</text></g>
+</g>
+<g><rect x="510" y="130" width="460" height="182" rx="12" fill="#fff" stroke="#cddad9"/>
+<text x="532" y="164" font-family="monospace" font-size="18" fill="#126d70">G2 · 4 people</text>
+<g><title>P05 · Ellis</title><text x="532" y="197" font-family="monospace" font-size="14" fill="#193d43">P05 · Ellis</text></g>
+<g><title>P01 · Alex</title><text x="532" y="224" font-family="monospace" font-size="14" fill="#193d43">P01 · Alex</text></g>
+<g><title>P04 · Devon</title><text x="532" y="251" font-family="monospace" font-size="14" fill="#193d43">P04 · Devon</text></g>
+<g><title>P07 · Gray</title><text x="532" y="278" font-family="monospace" font-size="14" fill="#193d43">P07 · Gray</text></g>
+</g>
+<g><rect x="30" y="332" width="460" height="182" rx="12" fill="#fff" stroke="#cddad9"/>
+<text x="52" y="366" font-family="monospace" font-size="18" fill="#126d70">G3 · 4 people</text>
+<g><title>P08 · Harper</title><text x="52" y="399" font-family="monospace" font-size="14" fill="#193d43">P08 · Harper</text></g>
+<g><title>P11 · Kai</title><text x="52" y="426" font-family="monospace" font-size="14" fill="#193d43">P11 · Kai</text></g>
+<g><title>P10 · Jules</title><text x="52" y="453" font-family="monospace" font-size="14" fill="#193d43">P10 · Jules</text></g>
+<g><title>P02 · Blair</title><text x="52" y="480" font-family="monospace" font-size="14" fill="#193d43">P02 · Blair</text></g>
+</g>
+<text x="30" y="587" font-family="monospace" font-size="12" fill="#526970">Mixcircle · mixcircle-v1 · Names and assignments are included in this export.</text></svg>

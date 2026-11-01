@@ -1,0 +1,788 @@
+{
+  "schema": "mixcircle-report-v1",
+  "algorithm": "mixcircle-v1",
+  "config": {
+    "title": "Studio conversations",
+    "participants": [
+      "Alex",
+      "Blair",
+      "Casey",
+      "Devon",
+      "Ellis",
+      "Frankie",
+      "Gray",
+      "Harper",
+      "Indigo",
+      "Jules",
+      "Kai",
+      "Logan"
+    ],
+    "groups": 3,
+    "rounds": 3,
+    "seed": "studio-1"
+  },
+  "people": [
+    {
+      "id": "P01",
+      "name": "Alex"
+    },
+    {
+      "id": "P02",
+      "name": "Blair"
+    },
+    {
+      "id": "P03",
+      "name": "Casey"
+    },
+    {
+      "id": "P04",
+      "name": "Devon"
+    },
+    {
+      "id": "P05",
+      "name": "Ellis"
+    },
+    {
+      "id": "P06",
+      "name": "Frankie"
+    },
+    {
+      "id": "P07",
+      "name": "Gray"
+    },
+    {
+      "id": "P08",
+      "name": "Harper"
+    },
+    {
+      "id": "P09",
+      "name": "Indigo"
+    },
+    {
+      "id": "P10",
+      "name": "Jules"
+    },
+    {
+      "id": "P11",
+      "name": "Kai"
+    },
+    {
+      "id": "P12",
+      "name": "Logan"
+    }
+  ],
+  "rounds": [
+    {
+      "number": 1,
+      "groups": [
+        {
+          "id": "G1",
+          "members": [
+            "P03",
+            "P12",
+            "P06",
+            "P09"
+          ]
+        },
+        {
+          "id": "G2",
+          "members": [
+            "P05",
+            "P01",
+            "P04",
+            "P07"
+          ]
+        },
+        {
+          "id": "G3",
+          "members": [
+            "P08",
+            "P11",
+            "P10",
+            "P02"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "groups": [
+        {
+          "id": "G1",
+          "members": [
+            "P12",
+            "P04",
+            "P11",
+            "P01"
+          ]
+        },
+        {
+          "id": "G2",
+          "members": [
+            "P02",
+            "P07",
+            "P06",
+            "P03"
+          ]
+        },
+        {
+          "id": "G3",
+          "members": [
+            "P05",
+            "P10",
+            "P09",
+            "P08"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "groups": [
+        {
+          "id": "G1",
+          "members": [
+            "P04",
+            "P02",
+            "P09",
+            "P01"
+          ]
+        },
+        {
+          "id": "G2",
+          "members": [
+            "P10",
+            "P07",
+            "P08",
+            "P12"
+          ]
+        },
+        {
+          "id": "G3",
+          "members": [
+            "P03",
+            "P06",
+            "P11",
+            "P05"
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Balanced-size seeded heuristic only. No global optimum, no-repeat, demographic fairness, room-capacity, accommodation or platform-integration guarantee.",
+  "audit": {
+    "possiblePairs": 66,
+    "metPairs": 48,
+    "totalMeetings": 54,
+    "repeatedPairs": 3,
+    "repeatMeetings": 6,
+    "pairCountLowerBound": 0,
+    "singletonPlacements": 0,
+    "people": [
+      {
+        "id": "P01",
+        "name": "Alex",
+        "uniquePartners": 7,
+        "meetingSlots": 9,
+        "repeatSlots": 2
+      },
+      {
+        "id": "P02",
+        "name": "Blair",
+        "uniquePartners": 9,
+        "meetingSlots": 9,
+        "repeatSlots": 0
+      },
+      {
+        "id": "P03",
+        "name": "Casey",
+        "uniquePartners": 7,
+        "meetingSlots": 9,
+        "repeatSlots": 2
+      },
+      {
+        "id": "P04",
+        "name": "Devon",
+        "uniquePartners": 7,
+        "meetingSlots": 9,
+        "repeatSlots": 2
+      },
+      {
+        "id": "P05",
+        "name": "Ellis",
+        "uniquePartners": 9,
+        "meetingSlots": 9,
+        "repeatSlots": 0
+      },
+      {
+        "id": "P06",
+        "name": "Frankie",
+        "uniquePartners": 7,
+        "meetingSlots": 9,
+        "repeatSlots": 2
+      },
+      {
+        "id": "P07",
+        "name": "Gray",
+        "uniquePartners": 9,
+        "meetingSlots": 9,
+        "repeatSlots": 0
+      },
+      {
+        "id": "P08",
+        "name": "Harper",
+        "uniquePartners": 7,
+        "meetingSlots": 9,
+        "repeatSlots": 2
+      },
+      {
+        "id": "P09",
+        "name": "Indigo",
+        "uniquePartners": 9,
+        "meetingSlots": 9,
+        "repeatSlots": 0
+      },
+      {
+        "id": "P10",
+        "name": "Jules",
+        "uniquePartners": 7,
+        "meetingSlots": 9,
+        "repeatSlots": 2
+      },
+      {
+        "id": "P11",
+        "name": "Kai",
+        "uniquePartners": 9,
+        "meetingSlots": 9,
+        "repeatSlots": 0
+      },
+      {
+        "id": "P12",
+        "name": "Logan",
+        "uniquePartners": 9,
+        "meetingSlots": 9,
+        "repeatSlots": 0
+      }
+    ],
+    "pairRows": [
+      {
+        "a": "P01",
+        "b": "P02",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P01",
+        "b": "P03",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P01",
+        "b": "P04",
+        "meetings": 3,
+        "rounds": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "a": "P01",
+        "b": "P05",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P01",
+        "b": "P06",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P01",
+        "b": "P07",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P01",
+        "b": "P08",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P01",
+        "b": "P09",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P01",
+        "b": "P10",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P01",
+        "b": "P11",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      },
+      {
+        "a": "P01",
+        "b": "P12",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      },
+      {
+        "a": "P02",
+        "b": "P03",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      },
+      {
+        "a": "P02",
+        "b": "P04",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P02",
+        "b": "P05",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P02",
+        "b": "P06",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      },
+      {
+        "a": "P02",
+        "b": "P07",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      },
+      {
+        "a": "P02",
+        "b": "P08",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P02",
+        "b": "P09",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P02",
+        "b": "P10",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P02",
+        "b": "P11",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P02",
+        "b": "P12",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P03",
+        "b": "P04",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P03",
+        "b": "P05",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P03",
+        "b": "P06",
+        "meetings": 3,
+        "rounds": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "a": "P03",
+        "b": "P07",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      },
+      {
+        "a": "P03",
+        "b": "P08",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P03",
+        "b": "P09",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P03",
+        "b": "P10",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P03",
+        "b": "P11",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P03",
+        "b": "P12",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P04",
+        "b": "P05",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P04",
+        "b": "P06",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P04",
+        "b": "P07",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P04",
+        "b": "P08",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P04",
+        "b": "P09",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P04",
+        "b": "P10",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P04",
+        "b": "P11",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      },
+      {
+        "a": "P04",
+        "b": "P12",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      },
+      {
+        "a": "P05",
+        "b": "P06",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P05",
+        "b": "P07",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P05",
+        "b": "P08",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      },
+      {
+        "a": "P05",
+        "b": "P09",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      },
+      {
+        "a": "P05",
+        "b": "P10",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      },
+      {
+        "a": "P05",
+        "b": "P11",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P05",
+        "b": "P12",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P06",
+        "b": "P07",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      },
+      {
+        "a": "P06",
+        "b": "P08",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P06",
+        "b": "P09",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P06",
+        "b": "P10",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P06",
+        "b": "P11",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P06",
+        "b": "P12",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P07",
+        "b": "P08",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P07",
+        "b": "P09",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P07",
+        "b": "P10",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P07",
+        "b": "P11",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P07",
+        "b": "P12",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P08",
+        "b": "P09",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      },
+      {
+        "a": "P08",
+        "b": "P10",
+        "meetings": 3,
+        "rounds": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "a": "P08",
+        "b": "P11",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P08",
+        "b": "P12",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P09",
+        "b": "P10",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      },
+      {
+        "a": "P09",
+        "b": "P11",
+        "meetings": 0,
+        "rounds": []
+      },
+      {
+        "a": "P09",
+        "b": "P12",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P10",
+        "b": "P11",
+        "meetings": 1,
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "a": "P10",
+        "b": "P12",
+        "meetings": 1,
+        "rounds": [
+          3
+        ]
+      },
+      {
+        "a": "P11",
+        "b": "P12",
+        "meetings": 1,
+        "rounds": [
+          2
+        ]
+      }
+    ],
+    "roundStats": [
+      {
+        "round": 1,
+        "newPairs": 18,
+        "repeatMeetings": 0,
+        "singletons": 0
+      },
+      {
+        "round": 2,
+        "newPairs": 15,
+        "repeatMeetings": 3,
+        "singletons": 0
+      },
+      {
+        "round": 3,
+        "newPairs": 15,
+        "repeatMeetings": 3,
+        "singletons": 0
+      }
+    ]
+  }
+}

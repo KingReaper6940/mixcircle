@@ -1,0 +1,4 @@
+import {mkdir,writeFile} from 'node:fs/promises';import {EXAMPLE} from '../src/example.mjs';import {makeMix} from '../src/mixer.mjs';import {makeReport} from '../src/audit.mjs';import {makeProject,jsonReport,markdownReport} from '../src/files.mjs';import {roundCards} from '../src/cards.mjs';
+const dir=new URL('../examples/',import.meta.url);await mkdir(dir,{recursive:true});const report=makeReport(makeMix(EXAMPLE));
+for(const [name,value]of Object.entries({'project.json':JSON.stringify(makeProject(EXAMPLE),null,2)+'\n','report.json':jsonReport(report),'brief.md':markdownReport(report),'round-1.svg':roundCards(report,1)}))await writeFile(new URL(name,dir),value);
+console.log(JSON.stringify({metPairs:report.audit.metPairs,repeatMeetings:report.audit.repeatMeetings,possiblePairs:report.audit.possiblePairs}));
